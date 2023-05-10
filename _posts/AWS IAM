@@ -1,0 +1,32 @@
+---
+layout: AWS AMI
+title: AMAZON MACHINE IMAGE.
+subtitle: What is AMI?
+tags: [#AWS, #AWS AMI #IAM]
+
+AMI In AWS – What Is It?
+An Amazon Machine Image (AMI) is a template that contains all the information you need to launch a new EC2 instance. An AMI can be used to launch multiple new EC2 instances, all with the same configuration.
+AMI In AWS – What does it do?
+AMIs allow you to pre-install any required packages on an EC2 instance, improve boot time, implement security controls for all instances simultaneously, and launch production-ready instances quickly when needed.
+AMIs provide a blueprint for the root volume which is needed to launch a particular instance. This blueprint typically includes the operating system, an application server, and applications.
+An AMI image consists of the following properties:
+Region e.g. US-East-1
+Permissions for launching AMI e.g. only the admin role can launch AMI
+Operating System e.g. Windows
+Root device Storage e.g. 20GB
+Architecture e.g. 64-bit architecture
+If you look at the below AWS diagram, you can see the basic lifecycle of an AMI. You create it, register it, and then use that AMI to launch one or more EC2 instances. You can copy an AMI and de-register it too.
+No alt text provided for this image
+You can create a custom AMI and put it on the AWS marketplace so others can use that AMI to launch their instances. Today, many public AMIs from AWS marketplace are downloaded to launch EC2 instances e.g. AMI for python and Ubuntu, AMI for deep learning having TensorFlow and GPU, etc.
+Benefits
+AMI provides a lot of benefits to businesses running their infrastructure on AWS. Some of the core advantages of AMI are listed below:
+Faster set-up
+One of the major benefits of an AMI deployment is that the process is much quicker and easier than traditional software installation. When you deliver software as an AMI on the AWS marketplace, there is no lengthy configuration, manual installation, or additional hardware needed on the user’s part.
+High flexibility
+AMI supports different operating systems and their different versions, like Windows and various flavors of Linux. AMI has other valuable services, including hardware extensions to improve AMI functioning. All the AMIs are compressed, secured, and encrypted across all operating systems. 
+Cost reduction
+When using the EC2 instances, AWS calculates the bill according to actual resource usage, e.g., memory, CPU, storage, etc. There is no upfront cost.
+Free trial
+Like most of the AWS products, you can try it for free. You can evaluate if it suits your business needs and then decide whether to continue using it. Note that not all of the AMI-based products offer a free trial. You can select an AMI which is eligible for a free trial. Keep in mind that you might still be charged for the actual infrastructure in form of EC2 instance, storage, etc.Remember that you might still be charged for the actual infrastructure in the the Python the wasthat
+
+
